@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dacb3f8-e8f8-4c20-b5b5-a22f80b06551" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/pooexcepciones/ejemplos/ejemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/pooexcepciones/ejemplos/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/pooexcepciones/ejemplos/DivisionPorZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/pooexcepciones/ejemplos/NumeroFormatoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo_excepciones/com/potoware/pooexcepciones/ejemplos/ejemplo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo_excepciones/com/potoware/pooexcepciones/ejemplos/ejemplo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/potoware/pooexcepciones/ejemplos/ejemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/potoware/pooexcepciones/ejemplos/ejemplo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xmIpycHWhWZS3v1Wla8cqvbsfP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

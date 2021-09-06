@@ -4,23 +4,31 @@ import javax.swing.*;
 
 public class ejemplo {
     public static void main(String[] args) {
-       String valor = JOptionPane.showInputDialog("Ingrese un entero");
-        int divisor;
+
+        Calculadora calc = new Calculadora();
+        String numerador = JOptionPane.showInputDialog("Ingrese un entero divisor");
+        String denominador = JOptionPane.showInputDialog("Ingrese un entero denominador");
+
+
+
         try {
-             divisor = Integer.parseInt(valor);
-           int division = 10 / divisor;
-           System.out.println(division);
-       }catch (NumberFormatException nfe){
+           // divisor = Integer.parseInt(valor);
+           // division = calc.dividir(10, divisor);
+           // System.out.println(division);
+            double division2 = calc.dividir(numerador,denominador);
+            System.out.println("division2 = " + division2);
+        } catch (NumberFormatException nfe) {
             System.out.println("Excepcion nfe ingrese un valor numerico" + nfe.getMessage());
             main(args);
-        }
-
-        catch (ArithmeticException ae){
-           System.out.println("Excepcion en tiempo de ejecucion "+ae.getMessage());
+        }  catch (DivisionPorZeroException e) {
+            e.printStackTrace();
             main(args);
-       }finally{
-           System.out.println("Cerrar conexion a BD");
-       }
+        } catch (NumeroFormatoException e) {
+            System.out.println("Se detecto una excepcion, ingrese numero valido"+e.getMessage());
+            e.printStackTrace(System.out);
+        } finally {
+            System.out.println("Cerrar conexion a BD");
+        }
         System.out.println("Continamos con el flujo");
 
     }
